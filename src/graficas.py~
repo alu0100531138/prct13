@@ -22,6 +22,6 @@ if __name__ =='__main__':
       y=y + [r]
 pl.plot(x,y,'go')
 pl.title('Dibujando umbral frente a porcentajes')
-p1.xlim(-1.0,2.0)
-p1.ylim(-2.0,2.0)
+pl.xlim(-1.0,2.0)
+pl.ylim(-2.0,2.0)
 pl.show()
